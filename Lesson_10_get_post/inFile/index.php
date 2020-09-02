@@ -2,7 +2,7 @@
 <?php 
 if(isset($_POST["done"])) { // isset() - узнает нажата ли кнопка
   if($_POST["name"] == "") 
-    echo "Введите имя. <br> <a href='/PHP/Lesson_10/inFile/'>Исправить</a>";
+    echo "Введите имя. <br> <a href='/PHP/Lesson_10_get_post/inFile/'>Исправить</a>";
   else
 		header("Location: index.php");
 }

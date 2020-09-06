@@ -17,6 +17,7 @@ if(isset($_POST["done"])) { // isset() - узнает нажата ли кноп
 		<title>Обработка форм</title>
 	</head>
 	<body>
+	<h2>Форма</h2>
 		<form action="check.php" name="test" method="post">
 			<label for="form-name">Имя: </label>
 			<input type="text" name="name" placeholder="Имя" id="form-name"><br>
